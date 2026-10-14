@@ -38,6 +38,7 @@
 
 ### 5. 数据可视化展示 (Python)
 - 使用 `pd.read_sql()` 从 MySQL 提取聚合数据，利用 `Seaborn` 绘制了不同舱位与性别组合的生存率柱状图，直观展示多维特征对生存率的影响。
+- ![Survival Rate Chart](titanic_survival_rate.png)
 
 ## 📁 项目文件说明
 - `import_data.py`：负责获取 Titanic 数据并写入 MySQL 数据库（包含镜像加速下载逻辑）。
@@ -50,4 +51,5 @@
 - [ ] 结合 R 语言与统计学模型（如逻辑回归、随机森林）进行生存预测建模。
 
 ---
-*Created by [你的名字 / GitHub 用户名] | 数据科学转码自学之路*
+*Created by [yumin921] 
+
